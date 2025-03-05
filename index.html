@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta tag -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To -Do list app</title>
+    <!-- 
+    1. CDN
+    2. LIBRARIES LINKS
+    3. LOCAL LIBRARIES
+    4. CUSTOM CODE
+    5. INTERNAL CSS
+    6. INLINE CSS
+    -->
+    <link rel="stylesheet" href="./static/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="todo-app">
+        <h2>TO-Do List <img src="./static/images/icons_to-do.png" alt="" /></h2>
+        <div class="row">
+          <input type="text" id="input-box" placeholder="Add your text" />
+          <button onclick="addTask()">Add</button>
+        </div>
+        <ul id="list-container">
+          <!-- <li class="checked">Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li> -->
+        </ul>
+      </div>
+
+      <span class="test"> </span>
+    </div>
+
+    <script src="./static/js/script.js"></script>
+  </body>
+</html>
